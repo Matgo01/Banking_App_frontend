@@ -1,0 +1,25 @@
+/* AddAccount.css */
+
+.container {
+    max-width: 600px; /* Larghezza massima del form */
+  }
+  
+  .form-control {
+    border-radius: 0; /* Bordo dei campi di input */
+  }
+  
+  .input-group-text {
+    background-color: #0056b3; /* Colore di sfondo delle etichette */
+    color: #ffffff; /* Colore del testo delle etichette */
+  }
+  
+  .btn-outline-success {
+    background-color: #28a745; /* Colore di sfondo del pulsante di salvataggio */
+    color: #ffffff; /* Colore del testo del pulsante di salvataggio */
+  }
+  
+  .btn-outline-warning {
+    background-color: #ffc107; /* Colore di sfondo del pulsante di annullamento */
+    color: #000000; /* Colore del testo del pulsante di annullamento */
+  }
+  

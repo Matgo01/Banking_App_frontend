@@ -1,0 +1,58 @@
+/* accountView.css */
+
+/* Stile per la sezione di visualizzazione degli account */
+section {
+    padding: 20px;
+  }
+  
+  /* Stile per la tabella */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Stile per l'intestazione della tabella */
+  .table thead th {
+    background-color: #007bff; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+  }
+  
+  /* Stile per le celle della tabella */
+  .table tbody td {
+    border: 1px solid #dee2e6; /* Bordo */
+    padding: 8px; /* Spaziatura interna */
+  }
+  
+  /* Stile per i bottoni */
+  .btn {
+    padding: 8px 16px; /* Spaziatura interna */
+    border-radius: 4px; /* Bordi arrotondati */
+  }
+  
+  /* Stile per il bottone di eliminazione */
+  .btn-danger {
+    background-color: #dc3545; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    border: none; /* Nessun bordo */
+  }
+  
+  /* Stile per il bottone di visualizzazione */
+  .btn-info {
+    background-color: #17a2b8; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    border: none; /* Nessun bordo */
+  }
+  
+  /* Stile per l'input di ricerca */
+  .search-input {
+    padding: 8px; /* Spaziatura interna */
+    border-radius: 4px; /* Bordi arrotondati */
+    border: 1px solid #ccc; /* Bordo */
+  }
+  
+  /* Stile per il wrapper della sezione */
+  .container {
+    max-width: 800px; /* Larghezza massima */
+    margin: 0 auto; /* Centratura */
+  }
+  

@@ -1,0 +1,46 @@
+/* AccountProfile.css */
+
+
+.shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombra */
+  }
+  
+  /* Colore di sfondo per la sezione */
+  section {
+    background-color: #f9f9f9;
+  }
+  
+  /* Stile per il contenitore */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Immagine dell'avatar */
+  .card-body img {
+    border-radius: 50%; /* Bordi arrotondati */
+  }
+  
+  /* Titolo dell'account */
+  .card-body h5 {
+    color: #333; /* Colore del testo */
+    margin-bottom: 15px; /* Spaziatura inferiore */
+  }
+  
+  /* Input per l'importo */
+  .input-group input[type='number'] {
+    border-radius: 0; /* Bordo */
+  }
+  
+  /* Bottoni di deposito e prelievo */
+  .btn-deposit {
+    background-color: #28a745; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    border-radius: 0; /* Bordo */
+  }
+  
+  .btn-withdraw {
+    background-color: #ffc107; /* Colore di sfondo */
+    color: #000; /* Colore del testo */
+    border-radius: 0; /* Bordo */
+  }
+  

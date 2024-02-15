@@ -1,38 +1,50 @@
+/* App.css */
+
+/* Stile per l'intera applicazione */
 .App {
   text-align: center;
+  background-color: #f8f9fa; /* Colore di sfondo */
+  font-family: Arial, sans-serif; /* Tipo di carattere */
 }
 
+/* Stile per il logo */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin: 20px; /* Spaziatura esterna */
+  width: 200px; /* Dimensioni del logo */
+  height: 200px;
+  animation: App-logo-spin 2s linear infinite; /* Animazione */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Stile per l'intestazione */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #007bff; /* Colore di sfondo */
+  color: #fff; /* Colore del testo */
+  padding: 40px; /* Spaziatura interna */
 }
 
+/* Stile per il titolo */
+.App-title {
+  font-size: 2.5rem; /* Dimensione del testo */
+  margin-bottom: 20px; /* Spaziatura inferiore */
+}
+
+/* Stile per il sottotitolo */
+.App-subtitle {
+  font-size: 1.5rem; /* Dimensione del testo */
+  margin-bottom: 40px; /* Spaziatura inferiore */
+}
+
+/* Stile per il link */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Colore del link */
 }
 
+/* Animazione per il logo */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Rotazione iniziale */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Rotazione completa */
   }
 }

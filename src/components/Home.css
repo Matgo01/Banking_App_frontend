@@ -1,0 +1,98 @@
+
+.home-container {
+  background-color: #f5f5f5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.home-title {
+  color: #007bff;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.hero-section {
+  padding: 50px 0;
+  
+}
+
+.main-content {
+  padding: 50px 0;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonials-carousel {
+  padding: 50px 0;
+}
+
+.testimonial {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+.material-icons {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  
+.account-balance {
+  font-size: 24px; 
+  color: #007bff;
+}
+
+
+  .testimonials-carousel {
+    display: none; 
+  }
+}
+
+
