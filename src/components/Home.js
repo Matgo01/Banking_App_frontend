@@ -1,9 +1,11 @@
 import React from 'react';
+import NavBar from '../common/NavBar';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className="home-container">
+      <NavBar/>
       <header className="hero-section">
         <h1>Banking App</h1>
         <p>
